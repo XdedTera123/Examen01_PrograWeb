@@ -1,0 +1,13 @@
+#btneli {
+    position: fixed;
+    bottom: 400px; /* Distancia desde abajo */
+    right: 1380px;  /* Distancia desde la derecha */
+    padding: 10px 20px;
+    background-color: #3498db; /* Color azul bonito */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+

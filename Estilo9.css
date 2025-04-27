@@ -1,0 +1,15 @@
+/* Estilo personalizado */
+button {
+    height: 100px;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+  }
+  .row {
+    margin-bottom: 10px;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

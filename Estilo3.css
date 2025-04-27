@@ -1,0 +1,16 @@
+body{
+    text-align: center;    
+}
+
+button{
+    background-color: steelblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: royalblue;
+}

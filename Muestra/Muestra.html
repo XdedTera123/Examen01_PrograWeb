@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="/Muestra.css">
+</head>
+<body>
+
+  <h2>Formulario de Contacto</h2>
+  <form id="contactForm">
+    <label>Nombre:
+      <input type="text" id="nombre" />
+      <div id="errorNombre" class="error"></div>
+    </label>
+
+    <label>Correo Electrónico:
+      <input type="email" id="correo" />
+      <div id="errorCorreo" class="error"></div>
+    </label>
+
+    <label>Mensaje:
+      <textarea id="mensaje"></textarea>
+      <div id="errorMensaje" class="error"></div>
+    </label>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="/Muestra.js"></script>
+</body>
+</html>
