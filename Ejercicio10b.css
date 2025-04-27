@@ -1,0 +1,19 @@
+/* Parte A: Estilos para el diseño de los tableros */
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 40px);
+    grid-template-rows: repeat(8, 40px);
+    gap: 4px;
+}
+
+.board button {
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Parte B: Estilo extra para botones marcados */
+button.marked {
+    background-color: rgb(255, 88, 88);
+}
